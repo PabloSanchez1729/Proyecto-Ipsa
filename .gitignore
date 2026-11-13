@@ -1,0 +1,19 @@
+# Datos generados (se reproducen con ingesta.R)
+data/*.duckdb
+data/*.duckdb.wal
+output/*.csv
+
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rcheck/
+
+# Power BI (los .pbix pesan y cambian de forma binaria; versiona capturas, no el archivo)
+*.pbix
+*.pbit
+
+# Sistema
+.DS_Store
+Thumbs.db
